@@ -45,6 +45,9 @@ class Sp_Screen : AppCompatActivity() {
             fadeInAnimation.start()
         }, TEXT_ANIMATION_DELAY)
 
+
+
+
         // Delay for a few seconds and then transition to the main activity
         Handler().postDelayed({
             val intent = Intent(this, MainActivity::class.java)
